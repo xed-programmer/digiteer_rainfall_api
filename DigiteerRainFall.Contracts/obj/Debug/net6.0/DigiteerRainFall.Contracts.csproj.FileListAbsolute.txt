@@ -1,0 +1,12 @@
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall.Contracts\bin\Debug\net6.0\DigiteerRainFall.Contracts.deps.json
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall.Contracts\bin\Debug\net6.0\DigiteerRainFall.Contracts.dll
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall.Contracts\bin\Debug\net6.0\DigiteerRainFall.Contracts.pdb
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall.Contracts\obj\Debug\net6.0\DigiteerRainFall.Contracts.csproj.AssemblyReference.cache
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall.Contracts\obj\Debug\net6.0\DigiteerRainFall.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall.Contracts\obj\Debug\net6.0\DigiteerRainFall.Contracts.AssemblyInfoInputs.cache
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall.Contracts\obj\Debug\net6.0\DigiteerRainFall.Contracts.AssemblyInfo.cs
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall.Contracts\obj\Debug\net6.0\DigiteerRainFall.Contracts.csproj.CoreCompileInputs.cache
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall.Contracts\obj\Debug\net6.0\DigiteerRainFall.Contracts.dll
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall.Contracts\obj\Debug\net6.0\refint\DigiteerRainFall.Contracts.dll
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall.Contracts\obj\Debug\net6.0\DigiteerRainFall.Contracts.pdb
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall.Contracts\obj\Debug\net6.0\ref\DigiteerRainFall.Contracts.dll

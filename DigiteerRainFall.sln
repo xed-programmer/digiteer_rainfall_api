@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiteerRainFall", "DigiteerRainFall\DigiteerRainFall.csproj", "{90E939EC-F285-4F6B-AA0E-D4D2DB3F6C7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiteerRainFall.Contracts", "DigiteerRainFall.Contracts\DigiteerRainFall.Contracts.csproj", "{815443DD-A8FC-43C7-A21E-5E2EB13CA933}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90E939EC-F285-4F6B-AA0E-D4D2DB3F6C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E939EC-F285-4F6B-AA0E-D4D2DB3F6C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E939EC-F285-4F6B-AA0E-D4D2DB3F6C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E939EC-F285-4F6B-AA0E-D4D2DB3F6C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815443DD-A8FC-43C7-A21E-5E2EB13CA933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815443DD-A8FC-43C7-A21E-5E2EB13CA933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815443DD-A8FC-43C7-A21E-5E2EB13CA933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815443DD-A8FC-43C7-A21E-5E2EB13CA933}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

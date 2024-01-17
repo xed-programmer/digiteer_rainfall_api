@@ -1,4 +1,4 @@
-namespace Digiteer.RainFall;
+namespace DigiteerRainFall.DigiteerRainFall.Contracts.RainFall;
 
 public record RainFallResponse(
     int response,

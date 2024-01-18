@@ -8,18 +8,16 @@ namespace DigiteerRainFall.Controllers;
 [Route("[controller]")]
 public class RainFallController : ControllerBase
 {
-    private readonly HttpClient _httpClient;
-
-    public RainFallController(IHttpClientFactory httpClientFactory)
-    {
-        _httpClient = httpClientFactory.CreateClient();
-        _httpClient.BaseAddress = new System.Uri("http://environment.data.gov.uk/flood-monitoring");
-    }
 
     [HttpGet("/id/{stationId}/readings")]
     public async Task<IActionResult> GetStationReadings(string stationId)
     {
-        var response = await _httpClient.GetAsync("id/stations/1491TH/readings");
-        return Ok(response);
+        var client = new HttpClient();
+        var request = new HttpRequestMessage(HttpMethod.Get, "http://environment.data.gov.uk/flood-monitoring/id/stations/3680/readings");
+        var response = await client.SendAsync(request);
+        response.EnsureSuccessStatusCode();
+        var responseContent = await response.Content.ReadAsStringAsync();
+
+        return Ok(responseContent);
     }
 }

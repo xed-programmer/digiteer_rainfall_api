@@ -25,3 +25,5 @@ F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall\obj\Debug\net6.0\refint\Digi
 F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall\obj\Debug\net6.0\DigiteerRainFall.pdb
 F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall\obj\Debug\net6.0\DigiteerRainFall.genruntimeconfig.cache
 F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall\obj\Debug\net6.0\ref\DigiteerRainFall.dll
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall\bin\Debug\net6.0\DigiteerRainFall.Contracts.dll
+F:\dotNetProjects\DigiteerRainFall\DigiteerRainFall\bin\Debug\net6.0\DigiteerRainFall.Contracts.pdb

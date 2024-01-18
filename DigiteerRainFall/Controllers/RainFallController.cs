@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
+using System.Text.Json;
 using System.Threading.Tasks;
-
+using DigiteerRainFall.DigiteerRainFall.Contracts.RainFall;
 namespace DigiteerRainFall.Controllers;
 
 [ApiController]
@@ -9,7 +10,7 @@ namespace DigiteerRainFall.Controllers;
 public class RainFallController : ControllerBase
 {
 
-    [HttpGet("/id/{stationId}/readings")]
+    [HttpGet("id/{stationId}/readings")]
     public async Task<IActionResult> GetStationReadings(string stationId)
     {
         var client = new HttpClient();
@@ -18,6 +19,10 @@ public class RainFallController : ControllerBase
         response.EnsureSuccessStatusCode();
         var responseContent = await response.Content.ReadAsStringAsync();
 
-        return Ok(responseContent);
+        // Deserialize the JSON response into an object
+        var readings = JsonSerializer.Deserialize<RainFallResponse>(responseContent, new JsonSerializerOptions{
+            PropertyNameCaseInsensitive = true
+        });
+        return Ok(readings);
     }
 }
